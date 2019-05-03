@@ -397,6 +397,22 @@ int check_switches(int state) {
 	}
 
 	if (get_switch_press(_BV(SWS))) {
+      if(playerX >= 270 && playerX < 300 && playerY >= 220){
+        display_string_xy("Congratulations", 130, 130);
+        rectangle r;
+        r.top = 130;
+        r.bottom = 140;
+        r.left = 220;
+        r.right = 230;
+        fill_rectangle(r,GREEN);
+
+        rectangle r1;
+        r1.top = 130;
+        r1.bottom = 140;
+        r1.left = 118;
+        r1.right = 128;
+        fill_rectangle(r1,GREEN);
+      }
 			playerY += 3;
       printPlayer();
 	}

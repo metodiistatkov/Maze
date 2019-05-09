@@ -1,5 +1,5 @@
 # Maze
-A simple game for an AVR AT90USB1286 microcontroller.Acknowledgements and licenses are included in the source files.
+A simple game for an AVR AT90USB1286 microcontroller. Acknowledgements and licenses are included in the source files.
 
 # Requirements
 If you want to run the program you need: 

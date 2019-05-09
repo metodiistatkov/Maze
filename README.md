@@ -1,4 +1,4 @@
-# Maze
+# Fortuna Maze
 A simple game for an AVR AT90USB1286 microcontroller. Acknowledgements and licenses are included in the source files.
 
 # Requirements
